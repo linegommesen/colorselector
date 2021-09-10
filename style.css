@@ -1,5 +1,16 @@
-.colorbox {
+.colorbox1,
+.colorbox2,
+.colorbox3,
+.colorbox4,
+.colorbox5 {
   border: 1px solid black;
   width: 100px;
   height: 100px;
+}
+.colors {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+.color {
+  margin: 2rem;
 }
